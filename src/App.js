@@ -22,7 +22,8 @@ function App() {
         <Navbar.Collapse className="justify-content-end">
           <Nav className="navbar-links">
             <Nav.Link href="#manifesto">Manifesto</Nav.Link>
-            <Nav.Link as="a" href="#">Handbook</Nav.Link>
+            <Nav.Link as="a" href="https://handbook.wgmi.community" target="_blank">Handbook</Nav.Link>
+            <Nav.Link as="a" href="https://discord.gg/ucQJW6Ve" target="_blank">Discord</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
