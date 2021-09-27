@@ -23,7 +23,7 @@ function App() {
           <Nav className="navbar-links">
             <Nav.Link href="#manifesto">Manifesto</Nav.Link>
             <Nav.Link as="a" href="https://handbook.wgmi.community" target="_blank">Handbook</Nav.Link>
-            <Nav.Link as="a" href="https://discord.gg/ucQJW6Ve" target="_blank">Discord</Nav.Link>
+            <Nav.Link as="a" href="https://discord.gg/z7uvKJjSC9" target="_blank">Discord</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
