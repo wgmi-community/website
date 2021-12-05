@@ -49,6 +49,11 @@
 .social-link-github {
   text-align: right;
 }
+.social-link-discord{
+  transform: scale(2.5);
+  padding-top: 30px;
+  padding-left: 17px;
+}
 
 @media only screen and (max-width: 1024px) {
   .main, #manifesto{
