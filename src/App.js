@@ -9,6 +9,7 @@ import web3CommunityIll from './assets/02.svg';
 import manifestoIll from './assets/23.svg';
 import github from './assets/github.svg';
 import twitter from './assets/twitter.svg';
+import discord from './assets/discord.svg';
 import './App.css';
 
 function App() {
@@ -63,6 +64,11 @@ function App() {
           <Col xs={{ span: 4 }} lg={{ span: 2 }} className="social-link-twitter">
             <a href="https://twitter.com/wgmicommunity" target="_blank" rel="noreferrer">
               <Image src={twitter} width="64" alt="wgmi twitter" fluid />
+            </a>
+          </Col>
+          <Col xs={{ span: 4 }} lg={{ span: 2 }} className="social-link-discord">
+            <a href="https://discord.com/invite/z7uvKJjSC9" target="_blank" rel="noreferrer">
+              <Image src={discord} width="64" alt="wgmi twitter" fluid />
             </a>
           </Col>
         </Row>
