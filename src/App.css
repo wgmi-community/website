@@ -1,5 +1,9 @@
-.navbar-links {
-  font-size: x-large;
+#root {
+  background: #000000a6
+}
+
+html {
+  background: #000000a6
 }
 
 .main, #manifesto{
@@ -16,6 +20,10 @@
   display: flex;
   justify-content: left;
   align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
 }
 
 .pitch-header {
@@ -46,13 +54,16 @@
   /* padding: 10rem; */
 }
 
-.social-link-github {
-  text-align: right;
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.social-link-discord{
-  transform: scale(2.5);
-  padding-top: 30px;
-  padding-left: 17px;
+
+.social-icon{
+  margin: 25px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 1024px) {

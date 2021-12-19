@@ -4,12 +4,13 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Nav from "react-bootstrap/Nav";
 import Image from "react-bootstrap/Image";
-import logo from './assets/logo.jpg';
+import logo from './assets/wgmi.png';
 import web3CommunityIll from './assets/02.svg';
 import manifestoIll from './assets/23.svg';
 import github from './assets/github.svg';
 import twitter from './assets/twitter.svg';
 import discord from './assets/discord.svg';
+import { SocialIcon } from 'react-social-icons';
 import './App.css';
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
         <Navbar.Collapse className="justify-content-end">
           <Nav className="navbar-links">
             <Nav.Link href="#manifesto">Manifesto</Nav.Link>
-            <Nav.Link as="a" href="https://handbook.wgmi.community" target="_blank">Handbook</Nav.Link>
-            <Nav.Link as="a" href="https://discord.gg/z7uvKJjSC9" target="_blank">Discord</Nav.Link>
+            <Nav.Link as="a" href="https://snapshot.org/#/wgmicommunity.eth" target="_blank">Governance</Nav.Link>
+            <Nav.Link as="a" href="https://handbook.wgmi.community" target="_blank">Wiki</Nav.Link>
+            <button class="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" type="button">Join Discord</button>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
@@ -47,8 +49,15 @@ function App() {
           <Col xs={12} lg={6} className="pitch">
             <div>
               <h2 className="manifesto-header">Manifesto</h2>
-              <h5 className="manifesto-content">Community Development is a growing field in web3. There is a huge demand for online community moderators, community Managers, community directors, community leads or more technical developer evangelists, developer advocates.</h5>
-              <h5 className="manifesto-content">Being a vital aspect to the success of web3 projects, community roles are a growing trend that we’re looking to help you with. This community was built for educating up and coming Community leaders. We’ll be sharing resources, pro-tips, templates and industry best practices.</h5>
+              <h5 className="manifesto-content">“Building a community is helping people, help others.”</h5>
+
+              <h5 className="manifesto-content">Being vital to the success of web3 projects, there is a huge demand online for Community Moderators, Community Managers, Community Directors, Community Leads or more technical positions like Developer Evangelists, Developer Advocates.</h5>
+
+              <h5 className="manifesto-content">This community was built for educating up and coming community professionals and leaders in the web3 space. To meet this talent gap in our current state—our aim is to:</h5>
+
+              <h5 className="manifesto-content">*Open source resources such as standards, strategies and tools that will support this future workforce *Design bootcamps and workshops that help grow the talent pool of the space overall *Be the leading DAO-as-a-Service for Community development in web3</h5>
+
+              <h5 className="manifesto-content"><a href="https://github.com/wgmi-community/mission" target="_blank">Read More</a></h5>
             </div>
           </Col>
         </Row>
@@ -56,20 +65,14 @@ function App() {
 
       <Container id="footer">
         <Row>
-          <Col xs={{ span: 4, offset: 2 }} lg={{ span: 2, offset: 4 }} className="social-link-github">
-            <a href="https://github.com/wgmi-community" target="_blank" rel="noreferrer">
-              <Image src={github} width="64" class alt="wgmi github" fluid />
-            </a>
+          <Col xs={{ span: 4, offset: 2 }} lg={{ span: 2, offset: 3 }}>
+            <SocialIcon network="github" style={{ height: 25, width: 25 }} url="https://github.com/wgmi-community" target="_blank" />
           </Col>
-          <Col xs={{ span: 4 }} lg={{ span: 2 }} className="social-link-twitter">
-            <a href="https://twitter.com/wgmicommunity" target="_blank" rel="noreferrer">
-              <Image src={twitter} width="64" alt="wgmi twitter" fluid />
-            </a>
+          <Col xs={{ span: 4 }} lg={{ span: 2 }}>
+          <SocialIcon network="twitter" style={{ height: 25, width: 25 }} url="https://twitter.com/wgmicommunity" target="_blank" />
           </Col>
-          <Col xs={{ span: 4 }} lg={{ span: 2 }} className="social-link-discord">
-            <a href="https://discord.com/invite/z7uvKJjSC9" target="_blank" rel="noreferrer">
-              <Image src={discord} width="64" alt="wgmi twitter" fluid />
-            </a>
+          <Col xs={{ span: 4 }} lg={{ span: 2 }}>
+          <SocialIcon network="discord" style={{ height: 25, width: 25 }} url="https://discord.gg/aazprhs4xY" target="_blank" />
           </Col>
         </Row>
       </Container>
