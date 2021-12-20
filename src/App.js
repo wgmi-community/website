@@ -54,7 +54,7 @@ function App() {
 
               <h5 className="manifesto-content">*Open source resources such as standards, strategies and tools that will support this future workforce *Design bootcamps and workshops that help grow the talent pool of the space overall *Be the leading DAO-as-a-Service for Community development in web3</h5>
 
-              <h5 className="manifesto-content"><a href="https://github.com/wgmi-community/mission" target="_blank">Read More</a></h5>
+              <h5 className="manifesto-content"><a href="https://github.com/wgmi-community/mission" target="_blank" rel="noreferrer">Read More</a></h5>
             </div>
           </Col>
         </Row>
