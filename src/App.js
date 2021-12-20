@@ -7,9 +7,6 @@ import Image from "react-bootstrap/Image";
 import logo from './assets/wgmi.png';
 import web3CommunityIll from './assets/02.svg';
 import manifestoIll from './assets/23.svg';
-import github from './assets/github.svg';
-import twitter from './assets/twitter.svg';
-import discord from './assets/discord.svg';
 import { SocialIcon } from 'react-social-icons';
 import './App.css';
 
