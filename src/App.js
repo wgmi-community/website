@@ -21,9 +21,10 @@ function App() {
         <Navbar.Collapse className="justify-content-end">
           <Nav className="navbar-links">
             <Nav.Link href="#manifesto">Manifesto</Nav.Link>
-            <Nav.Link as="a" href="https://snapshot.org/#/wgmicommunity.eth" target="_blank">Governance</Nav.Link>
-            <Nav.Link as="a" href="https://handbook.wgmi.community" target="_blank">Wiki</Nav.Link>
-            <button class="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" type="button">Join Discord</button>
+            <Nav.Link as="a" href="//snapshot.org/#/wgmicommunity.eth" target="_blank">Governance</Nav.Link>
+            <Nav.Link as="a" href="//forum.wgmi.community" target="_blank" rel="noreferrer">Wiki</Nav.Link>
+            <Nav.Link as="a" href="//handbook.wgmi.community" target="_blank" rel="noreferrer">Community</Nav.Link>
+            <a class="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" rel="noreferrer">&nbsp; Join Discord</a>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
