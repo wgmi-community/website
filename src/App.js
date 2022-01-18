@@ -14,16 +14,17 @@ function App() {
   return (
     <div className="App container">
       <Navbar collapseOnSelect expand="lg">
-        <Navbar.Brand>
-          <img src={logo} width="128" alt="logo" />
+        <Navbar.Brand href="/">
+          <img src={logo} width="128" alt="wgmi community" title="wgmi community" className="d-inline-block align-top" />
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav className="navbar-links">
             <Nav.Link href="#manifesto">Manifesto</Nav.Link>
-            <Nav.Link as="a" href="https://snapshot.org/#/wgmicommunity.eth" target="_blank">Governance</Nav.Link>
-            <Nav.Link as="a" href="https://handbook.wgmi.community" target="_blank">Wiki</Nav.Link>
-            <button class="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" type="button">Join Discord</button>
+            <Nav.Link as="a" href="//snapshot.org/#/wgmicommunity.eth" target="_blank">Governance</Nav.Link>
+            <Nav.Link as="a" href="//forum.wgmi.community" target="_blank" rel="noreferrer">Community</Nav.Link>
+            <Nav.Link as="a" href="#" target="_blank" rel="noreferrer">Wiki &nbsp;</Nav.Link>
+            <Nav.Link as="a" className="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" rel="noreferrer">&nbsp; Join Discord</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
