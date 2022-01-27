@@ -24,7 +24,7 @@ function App() {
             <Nav.Link as="a" href="//snapshot.org/#/wgmicommunity.eth" target="_blank">Governance</Nav.Link>
             <Nav.Link as="a" href="//forum.wgmi.community" target="_blank" rel="noreferrer">Community</Nav.Link>
             <Nav.Link as="a" href="#" target="_blank" rel="noreferrer">Wiki &nbsp;</Nav.Link>
-            <Nav.Link as="a" className="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" rel="noreferrer">&nbsp; Join Discord</Nav.Link>
+            <Nav.Link as="a" className="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" rel="noreferrer">Join Discord</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
