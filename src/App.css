@@ -66,6 +66,12 @@ html {
   padding: 20px;
 }
 
+.btn btn-primary{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media only screen and (max-width: 1024px) {
   .main, #manifesto{
     padding: 6rem;
