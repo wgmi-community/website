@@ -20,10 +20,12 @@ function App() {
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Nav className="navbar-links">
-            <Nav.Link href="#manifesto">Manifesto</Nav.Link>
-            <Nav.Link as="a" href="//snapshot.org/#/wgmicommunity.eth" target="_blank">Governance</Nav.Link>
-            <Nav.Link as="a" href="//forum.wgmi.community" target="_blank" rel="noreferrer">Community</Nav.Link>
-            <Nav.Link as="a" href="#" target="_blank" rel="noreferrer">Wiki &nbsp;</Nav.Link>
+            <Nav.Link href="https://mirror.xyz/mattwright.eth/YE45ZKnMkzp9OwZ5KaVR4igZ03sRlmj8NyFMxhuT2UA" target="_blank">Manifesto</Nav.Link>
+            <Nav.Link as="a" href="#" target="_blank">Manual</Nav.Link>
+            <Nav.Link as="a" href="//forum.wgmi.community" target="_blank" rel="noreferrer">Forum</Nav.Link>
+            <Nav.Link as="a" href="//snapshot.org/#/wgmicommunity.eth" target="_blank">Vote</Nav.Link>
+            <Nav.Link as="a" href="https://app.dework.xyz/wgmi-3" target="_blank" rel="noreferrer">Work</Nav.Link>
+            <Nav.Link as="a" href="https://wgmi-community.notion.site/wgmi-community/Wgmi-Wiki-455324209057416ca432b2362ae285df" target="_blank" rel="noreferrer">Wiki &nbsp;</Nav.Link>
             <Nav.Link as="a" className="btn btn-primary" href="https://discord.gg/aazprhs4xY" target="_blank" rel="noreferrer">Join Discord</Nav.Link>
           </Nav>
         </Navbar.Collapse>
